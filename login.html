@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>User Login</h2>
+
+  <input type="email" id="email" placeholder="Email">
+
+  <div class="pass-box">
+    <input type="password" id="password" placeholder="Password">
+    <span onclick="togglePassword()">👁</span>
+  </div>
+
+  <small id="strength"></small>
+
+  <button onclick="saveUser()">Submit</button>
+
+  <a href="admin-login.html">Admin Panel</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
